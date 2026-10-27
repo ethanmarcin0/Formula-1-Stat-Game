@@ -1,0 +1,106 @@
+{
+  "method": "205 s, seed 2026, actual twelve-car race; 20 Hz steering packets linearly interpolated to 60 FPS. RMS second difference measures visible angle roughness, not validated steering accuracy.",
+  "version": "wheel-stability-1",
+  "results": [
+    {
+      "id": "NOR",
+      "samples": 12298,
+      "rawSecondDifference": 0.0014986271342349615,
+      "displaySecondDifference": 0.0005123235362817584,
+      "reductionPercent": 65.81380888026587
+    },
+    {
+      "id": "LEC",
+      "samples": 12298,
+      "rawSecondDifference": 0.0030135713676060025,
+      "displaySecondDifference": 0.0009336564175555374,
+      "reductionPercent": 69.01827421139726
+    },
+    {
+      "id": "VER",
+      "samples": 12298,
+      "rawSecondDifference": 0.0027591993228854492,
+      "displaySecondDifference": 0.000821277467812313,
+      "reductionPercent": 70.2349351494673
+    },
+    {
+      "id": "RUS",
+      "samples": 12298,
+      "rawSecondDifference": 0.0025535021969707115,
+      "displaySecondDifference": 0.0007440163475032964,
+      "reductionPercent": 70.86290552692913
+    },
+    {
+      "id": "PIA",
+      "samples": 12298,
+      "rawSecondDifference": 0.0026378050756370964,
+      "displaySecondDifference": 0.0008132870063541215,
+      "reductionPercent": 69.1680399789324
+    },
+    {
+      "id": "HAM",
+      "samples": 12298,
+      "rawSecondDifference": 0.0027623131392190427,
+      "displaySecondDifference": 0.0008032591753997422,
+      "reductionPercent": 70.92077780773116
+    },
+    {
+      "id": "ANT",
+      "samples": 12298,
+      "rawSecondDifference": 0.0029401381274668397,
+      "displaySecondDifference": 0.0008971875753338772,
+      "reductionPercent": 69.4848494717874
+    },
+    {
+      "id": "HAD",
+      "samples": 12298,
+      "rawSecondDifference": 0.0034887370843639624,
+      "displaySecondDifference": 0.0010640272044278604,
+      "reductionPercent": 69.5010779345717
+    },
+    {
+      "id": "HUL",
+      "samples": 12298,
+      "rawSecondDifference": 0.0028110519198500557,
+      "displaySecondDifference": 0.0008257852322843567,
+      "reductionPercent": 70.62362219448424
+    },
+    {
+      "id": "PER",
+      "samples": 12298,
+      "rawSecondDifference": 0.0031081866984892393,
+      "displaySecondDifference": 0.0009378148288544915,
+      "reductionPercent": 69.8275901730638
+    },
+    {
+      "id": "BOR",
+      "samples": 12298,
+      "rawSecondDifference": 0.00303924332256513,
+      "displaySecondDifference": 0.0008852489139199553,
+      "reductionPercent": 70.87271995146467
+    },
+    {
+      "id": "BOT",
+      "samples": 12298,
+      "rawSecondDifference": 0.0027800939195209797,
+      "displaySecondDifference": 0.0007979719663186899,
+      "reductionPercent": 71.2969421386964
+    }
+  ],
+  "testsPassed": 111,
+  "assetContactCoverage": 18,
+  "physicsChanged": false,
+  "saveFormatChanged": false,
+  "response": {
+    "type": "critically damped presentation rack",
+    "omegaRadPerSecond": 32,
+    "clock": "simulation time",
+    "pause": "frozen",
+    "reset": "initialization or explicit presentation rewind"
+  },
+  "rotationFix": "Signed station corrections preserve accumulated phase; pit handoffs re-anchor travel without a phase reset.",
+  "limits": [
+    "RMS second difference is a display smoothness measure, not real-world steering accuracy.",
+    "No new steering-controller or suspension calibration."
+  ]
+}

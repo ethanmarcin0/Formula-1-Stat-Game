@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-22",
+  "tests": 95,
+  "modelVersion": "monza-3d-4",
+  "graphicsCheck": {
+    "viewport": [
+      1920,
+      1080
+    ],
+    "observedFPS": 60,
+    "qualities": [
+      "high",
+      "medium"
+    ],
+    "scope": "Sampled moving chase and T-cam scenes; not worst-case or every device"
+  },
+  "fullRace": {
+    "model": "monza-3d-4",
+    "mass": {
+      "tireForceScale": 1.3,
+      "dryMassKg": 768
+    },
+    "seed": 2026,
+    "simSeconds": 5149.900000000001,
+    "wallSeconds": 28.670194958,
+    "complete": true,
+    "contacts": 1,
+    "passes": 6,
+    "cars": [
+      {
+        "id": "LEC",
+        "status": "finished",
+        "laps": 53,
+        "fuel": 6.030883968729315,
+        "tire": 0.5508870218947263,
+        "battery": 0.8990949941448089
+      },
+      {
+        "id": "VER",
+        "status": "finished",
+        "laps": 53,
+        "fuel": 5.827043720852649,
+        "tire": 0.5986807157430887,
+        "battery": 0.8995800924097184
+      },
+      {
+        "id": "RUS",
+        "status": "finished",
+        "laps": 53,
+        "fuel": 5.776644190180027,
+        "tire": 0.5551231241274174,
+        "battery": 0.8993808313893763
+      },
+      {
+        "id": "HAM",
+        "status": "finished",
+        "laps": 53,
+        "fuel": 6.025295354301247,
+        "tire": 0.5889494863954653,
+        "battery": 0.8987872066807753
+      },
+      {
+        "id": "ANT",
+        "status": "finished",
+        "laps": 53,
+        "fuel": 5.925996836592833,
+        "tire": 0.5769476891947143,
+        "battery": 0.8993865639367928
+      },
+      {
+        "id": "HAD",
+        "status": "finished",
+        "laps": 53,
+        "fuel": 5.903566297463494,
+        "tire": 0.6039425858752862,
+        "battery": 0.8987802222704838
+      },
+      {
+        "id": "HUL",
+        "status": "finished",
+        "laps": 53,
+        "fuel": 5.87225103303857,
+        "tire": 0.5644113054726164,
+        "battery": 0.8992246566590576
+      },
+      {
+        "id": "PER",
+        "status": "finished",
+        "laps": 53,
+        "fuel": 5.843805233137282,
+        "tire": 0.603054480914542,
+        "battery": 0.8990467733475124
+      },
+      {
+        "id": "BOR",
+        "status": "finished",
+        "laps": 53,
+        "fuel": 5.8656058284542,
+        "tire": 0.5794257202875965,
+        "battery": 0.8994492067945099
+      },
+      {
+        "id": "BOT",
+        "status": "finished",
+        "laps": 53,
+        "fuel": 5.915962347699698,
+        "tire": 0.6130161170596747,
+        "battery": 0.8998226925172612
+      }
+    ]
+  },
+  "accuracy": "Polygon display meshes, authored colour blocks and heuristically split moving parts; not manufacturer CAD or validated aerodynamics."
+}

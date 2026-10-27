@@ -1,0 +1,629 @@
+{
+  "version": "sketchfab-cars-2",
+  "models": [
+    {
+      "team": "redbull",
+      "title": "2026 Redbull RB22",
+      "author": "Dave Love SketchFab",
+      "authorURL": "https://sketchfab.com/Tyler_Dave",
+      "sourceURL": "https://sketchfab.com/3d-models/2026-redbull-rb22-0a3d24a58e0549d591a5a48c22eec383",
+      "license": "CC BY 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceSHA256": "16eee6365ce3d77d4e69e5c60a596cbb39b2517461842df9e1fbc3e529f9c71d",
+      "sourceTriangles": 281075,
+      "retrieved": "2026-10-22",
+      "dimensions": {
+        "sourceWheelbase": 3.4026784896850586,
+        "scale": [
+          0.9948917398953526,
+          1.0,
+          0.999212829042421
+        ],
+        "wheelbase": 3.4,
+        "width": 1.9,
+        "pivots": {
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "steering": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "frontWing": [
+            0,
+            0,
+            0
+          ],
+          "rearWing": [
+            0,
+            0,
+            0
+          ],
+          "frontFlaps": [
+            0,
+            0.32,
+            -2.25
+          ],
+          "rearFlaps": [
+            0,
+            0.83,
+            2.05
+          ],
+          "wheel0": [
+            -0.7711723949225198,
+            0.35424176044762135,
+            -1.63
+          ],
+          "wheel1": [
+            0.7711724245726042,
+            0.3544414881616831,
+            -1.63
+          ],
+          "wheel2": [
+            -0.7324604442125704,
+            0.3562793992459774,
+            1.7700005360195314
+          ],
+          "wheel3": [
+            0.732478056362688,
+            0.3562794988974929,
+            1.7699994639804684
+          ]
+        },
+        "wheelRadii": [
+          0.35424176044762135,
+          0.3543417174369097,
+          0.3552346844226122,
+          0.35523477382957935
+        ],
+        "removedDecalTriangles": 12968
+      },
+      "lods": {
+        "high": {
+          "triangles": 241649,
+          "bytes": 6521116,
+          "sha256": "18cc278c5e275de649e6e56fc17b87179b6be020732998d1872efdfb74a781eb"
+        },
+        "medium": {
+          "triangles": 195013,
+          "bytes": 5162228,
+          "sha256": "16277ed4172d2c757e86d3d35732fc1a0052290d2b878c173cd19637ab7966ff"
+        },
+        "far": {
+          "triangles": 54824,
+          "bytes": 1338092,
+          "sha256": "320986165ed8ebc35dd9054ec72e9c6d3c00fecd49df1c4f827d3b37295584f0"
+        }
+      },
+      "changes": [
+        "All source textures and decal/number primitives removed; plain team-colour materials",
+        "Reoriented and normalized to 3.4 m wheelbase and 1.9 m tyre envelope",
+        "Rigid wheel/steering/wing groups separated heuristically; approximate flap animation",
+        "Vertex-cluster LOD optimization; not manufacturer CAD or validated aerodynamic geometry"
+      ]
+    },
+    {
+      "team": "audi",
+      "title": "2026 Audi R26",
+      "author": "Dave Love SketchFab",
+      "authorURL": "https://sketchfab.com/Tyler_Dave",
+      "sourceURL": "https://sketchfab.com/3d-models/2026-audi-r26-32bf228264b047669b100b0f1b8769ac",
+      "license": "CC BY 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceSHA256": "f57c0c95f0d0a683dcfc7ab05730ca1c6aa3c648df3e9d14c472b107ad2d926b",
+      "sourceTriangles": 265138,
+      "retrieved": "2026-10-22",
+      "dimensions": {
+        "sourceWheelbase": 3.367666006088257,
+        "scale": [
+          0.9910302938052069,
+          1.0,
+          1.0096013066180813
+        ],
+        "wheelbase": 3.4,
+        "width": 1.9,
+        "pivots": {
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "steering": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "frontWing": [
+            0,
+            0,
+            0
+          ],
+          "rearWing": [
+            0,
+            0,
+            0
+          ],
+          "frontFlaps": [
+            0,
+            0.32,
+            -2.25
+          ],
+          "rearFlaps": [
+            0,
+            0.83,
+            2.05
+          ],
+          "wheel0": [
+            -0.7718664145434341,
+            0.3572356067597866,
+            -1.6300009628308358
+          ],
+          "wheel1": [
+            0.7718664736134426,
+            0.3572507072240114,
+            -1.629999037169164
+          ],
+          "wheel2": [
+            -0.7263884444388897,
+            0.35419015400111675,
+            1.7699999999999996
+          ],
+          "wheel3": [
+            0.7265255163939015,
+            0.3541900496929884,
+            1.7699999999999996
+          ]
+        },
+        "wheelRadii": [
+          0.35573875717818737,
+          0.3557462375611067,
+          0.35419013909995556,
+          0.3541900496929884
+        ],
+        "removedDecalTriangles": 5748
+      },
+      "lods": {
+        "high": {
+          "triangles": 236059,
+          "bytes": 6490116,
+          "sha256": "a4ac8b8ba0468c8f0ae68782937143198a3d85da286aa05417061c7460ffcb6c"
+        },
+        "medium": {
+          "triangles": 193369,
+          "bytes": 5228544,
+          "sha256": "30dfe4e4803d294b262bca706d4d9b86b602a80f2cb8adb098ea4f72a17ca453"
+        },
+        "far": {
+          "triangles": 55878,
+          "bytes": 1389940,
+          "sha256": "da86b818e432e6534c7b7e07d9ebbddaea78ec2880c36eb538a3a763d88d0ccb"
+        }
+      },
+      "changes": [
+        "All source textures and decal/number primitives removed; plain team-colour materials",
+        "Reoriented and normalized to 3.4 m wheelbase and 1.9 m tyre envelope",
+        "Rigid wheel/steering/wing groups separated heuristically; approximate flap animation",
+        "Vertex-cluster LOD optimization; not manufacturer CAD or validated aerodynamic geometry"
+      ]
+    },
+    {
+      "team": "ferrari",
+      "title": "2026 Ferrari SF-26",
+      "author": "Dave Love SketchFab",
+      "authorURL": "https://sketchfab.com/Tyler_Dave",
+      "sourceURL": "https://sketchfab.com/3d-models/2026-ferrari-sf-26-e5ca6cecdc42449283f4bed27360f2a7",
+      "license": "CC BY 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceSHA256": "ed671317baa51cc334573d466779c10be8fc0cd9a20521944ac68daec17131d4",
+      "sourceTriangles": 272041,
+      "retrieved": "2026-10-22",
+      "dimensions": {
+        "sourceWheelbase": 3.5329837799072266,
+        "scale": [
+          0.9715259099448224,
+          1.0,
+          0.9623593573614655
+        ],
+        "wheelbase": 3.4,
+        "width": 1.9,
+        "pivots": {
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "steering": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "frontWing": [
+            0,
+            0,
+            0
+          ],
+          "rearWing": [
+            0,
+            0,
+            0
+          ],
+          "frontFlaps": [
+            0,
+            0.32,
+            -2.25
+          ],
+          "rearFlaps": [
+            0,
+            0.83,
+            2.05
+          ],
+          "wheel0": [
+            -0.7768091333347535,
+            0.36351262871176004,
+            -1.63
+          ],
+          "wheel1": [
+            0.7768093939183089,
+            0.3660865183919668,
+            -1.63
+          ],
+          "wheel2": [
+            -0.7413148445795862,
+            0.35757556185126305,
+            1.7700002294443504
+          ],
+          "wheel3": [
+            0.7410879631640305,
+            0.3583908826112747,
+            1.7699997705556494
+          ]
+        },
+        "wheelRadii": [
+          0.3607351742684841,
+          0.3620220087468624,
+          0.35757556185126305,
+          0.3579832576215267
+        ],
+        "removedDecalTriangles": 8196
+      },
+      "lods": {
+        "high": {
+          "triangles": 231249,
+          "bytes": 6161940,
+          "sha256": "79a478a0e5e8d9328f6a77e0dd545673ff4f066ce041f3c9fc1372a1874075cd"
+        },
+        "medium": {
+          "triangles": 193337,
+          "bytes": 5076808,
+          "sha256": "0d312417c2e8aed22af9daf63b174cc7555341852cc5db99061f98aca5099816"
+        },
+        "far": {
+          "triangles": 54556,
+          "bytes": 1322368,
+          "sha256": "0243920420b28f028423afc80859f28329ba358ef45b32a3fb0f1ec88a21f5b3"
+        }
+      },
+      "changes": [
+        "All source textures and decal/number primitives removed; plain team-colour materials",
+        "Reoriented and normalized to 3.4 m wheelbase and 1.9 m tyre envelope",
+        "Rigid wheel/steering/wing groups separated heuristically; approximate flap animation",
+        "Vertex-cluster LOD optimization; not manufacturer CAD or validated aerodynamic geometry"
+      ]
+    },
+    {
+      "team": "mercedes",
+      "title": "2026 Mercedes W17",
+      "author": "Dave Love SketchFab",
+      "authorURL": "https://sketchfab.com/Tyler_Dave",
+      "sourceURL": "https://sketchfab.com/3d-models/2026-mercedes-w17-b806f1e70aa343219e7158169549b97b",
+      "license": "CC BY 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceSHA256": "1d274f08d532e60826a7de5a93ccef7ddabe0b3377cca243679adb46e841a8d8",
+      "sourceTriangles": 267698,
+      "retrieved": "2026-10-22",
+      "dimensions": {
+        "sourceWheelbase": 3.40021151304245,
+        "scale": [
+          0.9907795896493502,
+          1.0,
+          0.9999377941514407
+        ],
+        "wheelbase": 3.4,
+        "width": 1.9,
+        "pivots": {
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "steering": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "frontWing": [
+            0,
+            0,
+            0
+          ],
+          "rearWing": [
+            0,
+            0,
+            0
+          ],
+          "frontFlaps": [
+            0,
+            0.32,
+            -2.25
+          ],
+          "rearFlaps": [
+            0,
+            0.83,
+            2.05
+          ],
+          "wheel0": [
+            -0.7719114480482331,
+            0.36328170262277126,
+            -1.630000476807496
+          ],
+          "wheel1": [
+            0.7719114185207003,
+            0.36332641914486885,
+            -1.6299995231925037
+          ],
+          "wheel2": [
+            -0.7297409344413555,
+            0.3541901111602783,
+            1.7700005364084332
+          ],
+          "wheel3": [
+            0.7300735620977378,
+            0.35419019125401974,
+            1.7699994635915668
+          ]
+        },
+        "wheelRadii": [
+          0.3587618675082922,
+          0.35878421925008297,
+          0.3541900720447302,
+          0.35419019125401974
+        ],
+        "removedDecalTriangles": 10149
+      },
+      "lods": {
+        "high": {
+          "triangles": 237113,
+          "bytes": 6310976,
+          "sha256": "3f5b410612ae2d29a3b1b10da828dd340719039e912faa57a14c0dae40b0ddd2"
+        },
+        "medium": {
+          "triangles": 196643,
+          "bytes": 5143580,
+          "sha256": "a8ff17809ec2dab8efdbcd3d4d94f5ee40b9ded62c2c33a6d036e58a41ec5e64"
+        },
+        "far": {
+          "triangles": 60308,
+          "bytes": 1431768,
+          "sha256": "d4516900a8713cdabfb14e14a27b6a04e9bba974b220d0e0a96a967fa00ac6c3"
+        }
+      },
+      "changes": [
+        "All source textures and decal/number primitives removed; plain team-colour materials",
+        "Reoriented and normalized to 3.4 m wheelbase and 1.9 m tyre envelope",
+        "Rigid wheel/steering/wing groups separated heuristically; approximate flap animation",
+        "Vertex-cluster LOD optimization; not manufacturer CAD or validated aerodynamic geometry"
+      ]
+    },
+    {
+      "team": "cadillac",
+      "title": "2026 Cadillac MAC-26",
+      "author": "Dave Love SketchFab",
+      "authorURL": "https://sketchfab.com/Tyler_Dave",
+      "sourceURL": "https://sketchfab.com/3d-models/2026-cadillac-mac-26-95bcd37aa7c649779efc33b90b6c023e",
+      "license": "CC BY 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceSHA256": "53ac923f13fc53571b7086c7941da335ce85703751fda14ed75605abb3c923b9",
+      "sourceTriangles": 259719,
+      "retrieved": "2026-10-22",
+      "dimensions": {
+        "sourceWheelbase": 3.4002526998519897,
+        "scale": [
+          0.9975729811833562,
+          1.0,
+          0.9999256820376906
+        ],
+        "wheelbase": 3.4,
+        "width": 1.9,
+        "pivots": {
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "steering": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "frontWing": [
+            0,
+            0,
+            0
+          ],
+          "rearWing": [
+            0,
+            0,
+            0
+          ],
+          "frontFlaps": [
+            0,
+            0.32,
+            -2.25
+          ],
+          "rearFlaps": [
+            0,
+            0.83,
+            2.05
+          ],
+          "wheel0": [
+            -0.7706904530800647,
+            0.36383774783462286,
+            -1.63
+          ],
+          "wheel1": [
+            0.7706904530800647,
+            0.36396108847111464,
+            -1.63
+          ],
+          "wheel2": [
+            -0.732268244388292,
+            0.3541901744902134,
+            1.7699997615991394
+          ],
+          "wheel3": [
+            0.7324088969785065,
+            0.3541900459676981,
+            1.7700002384008602
+          ]
+        },
+        "wheelRadii": [
+          0.35903974808752537,
+          0.3591014090925455,
+          0.35419013537466526,
+          0.3541900459676981
+        ],
+        "removedDecalTriangles": 4099
+      },
+      "lods": {
+        "high": {
+          "triangles": 226406,
+          "bytes": 6414464,
+          "sha256": "783fbf852c4af15412aa9fef1e25ab594db53261ff35d912c0fe820a50969f85"
+        },
+        "medium": {
+          "triangles": 181098,
+          "bytes": 5092392,
+          "sha256": "5b3df28b169c24b39137b5d0fe9a799acb5ea75a1342eef077969587968c0783"
+        },
+        "far": {
+          "triangles": 51756,
+          "bytes": 1366096,
+          "sha256": "d58d399bc6de25419e3a55e2fd9a19f0d1902f21a465821ce9e9046cb0d9def3"
+        }
+      },
+      "changes": [
+        "All source textures and decal/number primitives removed; plain team-colour materials",
+        "Reoriented and normalized to 3.4 m wheelbase and 1.9 m tyre envelope",
+        "Rigid wheel/steering/wing groups separated heuristically; approximate flap animation",
+        "Vertex-cluster LOD optimization; not manufacturer CAD or validated aerodynamic geometry"
+      ]
+    },
+    {
+      "team": "mclaren",
+      "title": "2026 McLaren MCL40",
+      "author": "Dave Love SketchFab",
+      "authorURL": "https://sketchfab.com/Tyler_Dave",
+      "sourceURL": "https://sketchfab.com/3d-models/2026-mclaren-mcl40-96214ad5624f42a0861f77008f8d29e7",
+      "license": "CC BY 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceSHA256": "f11dbe2b17373763b21a34f5ff58f58f5f4a091bb7af23500d5ff2286b00c3c5",
+      "sourceTriangles": 276870,
+      "retrieved": "2026-10-23",
+      "dimensions": {
+        "sourceWheelbase": 3.25807723402977,
+        "scale": [
+          0.9889017640006085,
+          1.0,
+          1.0435602828833779
+        ],
+        "wheelbase": 3.4,
+        "width": 1.9,
+        "pivots": {
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "steering": [
+            0,
+            0.72,
+            -0.4
+          ],
+          "frontWing": [
+            0,
+            0,
+            0
+          ],
+          "rearWing": [
+            0,
+            0,
+            0
+          ],
+          "frontFlaps": [
+            0,
+            0.32,
+            -2.25
+          ],
+          "rearFlaps": [
+            0,
+            0.83,
+            2.05
+          ],
+          "wheel0": [
+            -0.7668181060663781,
+            0.3550183102488518,
+            -1.63
+          ],
+          "wheel1": [
+            0.7668185186683466,
+            0.35621076449751854,
+            -1.63
+          ],
+          "wheel2": [
+            -0.7285641271563571,
+            0.3551526814699173,
+            1.7699997200953201
+          ],
+          "wheel3": [
+            0.7286109280082158,
+            0.3589412458240986,
+            1.77000027990468
+          ]
+        },
+        "wheelRadii": [
+          0.3550183102488518,
+          0.35561453551054,
+          0.3546713814139366,
+          0.35656558722257614
+        ],
+        "removedDecalTriangles": 11206
+      },
+      "lods": {
+        "high": {
+          "triangles": 239286,
+          "bytes": 6556600,
+          "sha256": "f9f3da8d462460876e7f9c6758d54375614d8f4e67b91f494fa76425c47d78da"
+        },
+        "medium": {
+          "triangles": 198260,
+          "bytes": 5335068,
+          "sha256": "2fb2b417c28a298bdce1cb889551cb4d78336305f1abfacf0c8bede37a2993fc"
+        },
+        "far": {
+          "triangles": 61167,
+          "bytes": 1482552,
+          "sha256": "607aa3ac782aee2c3372b478ea1340ba929ce2e9ec47ba26c20941de3150bc42"
+        }
+      },
+      "changes": [
+        "All source textures and decal/number primitives removed; plain team-colour materials",
+        "Reoriented and normalized to 3.4 m wheelbase and 1.9 m tyre envelope",
+        "Rigid wheel/steering/wing groups separated heuristically; approximate flap animation",
+        "Vertex-cluster LOD optimization; not manufacturer CAD or validated aerodynamic geometry"
+      ]
+    }
+  ]
+}

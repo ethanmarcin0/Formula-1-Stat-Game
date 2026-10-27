@@ -1,0 +1,41 @@
+{
+  "version": "isolated-flaps-1",
+  "date": "2026-10-23",
+  "reference": "https://www.youtube.com/shorts/b9_8d7f1R0Q",
+  "referenceUse": "Visual distinction of fixed structure and moving wing elements; no team dimensions or angles measured from video.",
+  "tests": {
+    "total": 108,
+    "passed": 108,
+    "teams": 6,
+    "lodsPerTeam": 3,
+    "checks": [
+      "No triangle loss",
+      "No nose/chassis/fixed-structure motion from aero actuation",
+      "Wing assembly roots stay rigid",
+      "Only bounded control surfaces move",
+      "Front trailing edge lowers",
+      "Pause/reversal/travel bounds",
+      "Frame-rate agreement and late LOD synchronization"
+    ]
+  },
+  "visualAssumptions": {
+    "frontHingeYZMetres": [
+      0.255,
+      -2.47
+    ],
+    "rearHingeYZMetres": [
+      0.89,
+      2.04
+    ],
+    "frontTravelRadians": 0.18,
+    "rearTravelRadians": -0.28,
+    "transitionSimSeconds": 0.35,
+    "easing": "quintic",
+    "precision": "Conservative visual control-surface partition, not team-specific hinge CAD"
+  },
+  "automaticActivationChanged": false,
+  "physicsChanged": false,
+  "saveFormatChanged": false,
+  "modelVersion": "monza-3d-5",
+  "extension": "McLaren joins the existing conservative flap rig; all 18 LOD assets checked."
+}

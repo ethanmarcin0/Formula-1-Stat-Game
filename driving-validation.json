@@ -1,0 +1,618 @@
+{
+  "date": "2026-10-22",
+  "modelVersion": "monza-3d-2",
+  "testsPassed": 89,
+  "aero": {
+    "modelVersion": "monza-3d-2",
+    "durationSeconds": 1.5,
+    "initialSpeedKmh": 288,
+    "initialBatteryMJ": 4,
+    "assumptions": [
+      "Fixed identical initial car/driver/tires; unconstrained traffic controller",
+      "Tow held at 25 m for force comparison, not a moving two-car race",
+      "Provisional aero/ERS coefficients; directional behavior check, not real-world calibration"
+    ],
+    "results": [
+      {
+        "case": "Corner aero / no tow / no overtake",
+        "finalSpeedKmh": 315.249,
+        "distanceTravelledM": 126.129,
+        "batteryUsedMJ": 0.391107,
+        "finalDeploymentKW": 190.142,
+        "wake": 0,
+        "dragN": 3613.643929952811,
+        "downforceN": 14942.652302558117,
+        "eligible": false,
+        "active": false
+      },
+      {
+        "case": "Straight aero / no tow / no overtake",
+        "finalSpeedKmh": 317.95,
+        "distanceTravelledM": 126.46,
+        "batteryUsedMJ": 0.366935,
+        "finalDeploymentKW": 173.111,
+        "wake": 0,
+        "dragN": 2793.2151571481886,
+        "downforceN": 9422.471253286221,
+        "eligible": false,
+        "active": false
+      },
+      {
+        "case": "Straight aero / held 25 m tow / no overtake",
+        "finalSpeedKmh": 318.423,
+        "distanceTravelledM": 126.447,
+        "batteryUsedMJ": 0.359546,
+        "finalDeploymentKW": 170.149,
+        "wake": 0.5737534207374327,
+        "dragN": 2576.3791879492246,
+        "downforceN": 8257.24744348619,
+        "eligible": false,
+        "active": false
+      },
+      {
+        "case": "Straight aero / no tow / eligible overtake",
+        "finalSpeedKmh": 323.249,
+        "distanceTravelledM": 127.123,
+        "batteryUsedMJ": 0.493352,
+        "finalDeploymentKW": 350,
+        "wake": 0,
+        "dragN": 2885.876000106934,
+        "downforceN": 9735.048008016229,
+        "eligible": true,
+        "active": true
+      }
+    ]
+  },
+  "fullRace": {
+    "wallSeconds": 36.706681458,
+    "simulatedSeconds": 5163.950000000001,
+    "speedup": 140.6814725517648,
+    "complete": true,
+    "contacts": 0,
+    "passes": 12,
+    "results": [
+      {
+        "driver": "NOR",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 95.15,
+        "fuel": 6.030982134917111,
+        "stops": 1
+      },
+      {
+        "driver": "LEC",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.5,
+        "fuel": 6.028434165863376,
+        "stops": 1
+      },
+      {
+        "driver": "VER",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94,
+        "fuel": 5.692081843765721,
+        "stops": 1
+      },
+      {
+        "driver": "RUS",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.40000000000009,
+        "fuel": 5.950619454214196,
+        "stops": 1
+      },
+      {
+        "driver": "PIA",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.55000000000018,
+        "fuel": 5.972629836317057,
+        "stops": 1
+      },
+      {
+        "driver": "HAM",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.65000000000009,
+        "fuel": 6.020613481234127,
+        "stops": 1
+      },
+      {
+        "driver": "ANT",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.34999999999991,
+        "fuel": 5.946021644912662,
+        "stops": 1
+      },
+      {
+        "driver": "HAD",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.69999999999982,
+        "fuel": 5.8977885811894035,
+        "stops": 1
+      },
+      {
+        "driver": "ALB",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 95.34999999999991,
+        "fuel": 5.955714420089623,
+        "stops": 1
+      },
+      {
+        "driver": "SAI",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 93.85000000000036,
+        "fuel": 5.854656999453196,
+        "stops": 1
+      },
+      {
+        "driver": "ALO",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.5,
+        "fuel": 5.850796309219433,
+        "stops": 1
+      },
+      {
+        "driver": "STR",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 95.65000000000055,
+        "fuel": 5.836292442181965,
+        "stops": 1
+      }
+    ]
+  },
+  "multiSeed": [
+    {
+      "model": "monza-3d-1",
+      "seed": 2026,
+      "seconds": 450,
+      "passes": 10,
+      "contactEvents": 0,
+      "contactTicks": 0,
+      "maxLateral": 8.329,
+      "towSamplesWithin25m": 330,
+      "towSamples": 9076,
+      "states": [
+        {
+          "id": "NOR",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "LEC",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "VER",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "RUS",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "PIA",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAM",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ANT",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAD",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALB",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "SAI",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALO",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "STR",
+          "laps": 4,
+          "status": "racing"
+        }
+      ],
+      "resourcesValid": true
+    },
+    {
+      "model": "monza-3d-1",
+      "seed": 7,
+      "seconds": 450,
+      "passes": 8,
+      "contactEvents": 0,
+      "contactTicks": 0,
+      "maxLateral": 8.321,
+      "towSamplesWithin25m": 312,
+      "towSamples": 9011,
+      "states": [
+        {
+          "id": "NOR",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "LEC",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "VER",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "RUS",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "PIA",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAM",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ANT",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAD",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALB",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "SAI",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALO",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "STR",
+          "laps": 4,
+          "status": "racing"
+        }
+      ],
+      "resourcesValid": true
+    },
+    {
+      "model": "monza-3d-1",
+      "seed": 44,
+      "seconds": 450,
+      "passes": 9,
+      "contactEvents": 0,
+      "contactTicks": 0,
+      "maxLateral": 8.346,
+      "towSamplesWithin25m": 325,
+      "towSamples": 9059,
+      "states": [
+        {
+          "id": "NOR",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "LEC",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "VER",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "RUS",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "PIA",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAM",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ANT",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAD",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALB",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "SAI",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALO",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "STR",
+          "laps": 4,
+          "status": "racing"
+        }
+      ],
+      "resourcesValid": true
+    },
+    {
+      "model": "monza-3d-2",
+      "seed": 2026,
+      "seconds": 450,
+      "passes": 10,
+      "contactEvents": 0,
+      "contactTicks": 2,
+      "maxLateral": 4.529,
+      "towSamplesWithin25m": 458,
+      "towSamples": 9210,
+      "states": [
+        {
+          "id": "NOR",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "LEC",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "VER",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "RUS",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "PIA",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAM",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ANT",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAD",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALB",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "SAI",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALO",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "STR",
+          "laps": 4,
+          "status": "racing"
+        }
+      ],
+      "resourcesValid": true
+    },
+    {
+      "model": "monza-3d-2",
+      "seed": 7,
+      "seconds": 450,
+      "passes": 11,
+      "contactEvents": 1,
+      "contactTicks": 2,
+      "maxLateral": 4.529,
+      "towSamplesWithin25m": 486,
+      "towSamples": 9205,
+      "states": [
+        {
+          "id": "NOR",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "LEC",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "VER",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "RUS",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "PIA",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAM",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ANT",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAD",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALB",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "SAI",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALO",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "STR",
+          "laps": 4,
+          "status": "racing"
+        }
+      ],
+      "resourcesValid": true
+    },
+    {
+      "model": "monza-3d-2",
+      "seed": 44,
+      "seconds": 450,
+      "passes": 10,
+      "contactEvents": 1,
+      "contactTicks": 2,
+      "maxLateral": 4.531,
+      "towSamplesWithin25m": 413,
+      "towSamples": 9255,
+      "states": [
+        {
+          "id": "NOR",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "LEC",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "VER",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "RUS",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "PIA",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAM",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ANT",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "HAD",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALB",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "SAI",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "ALO",
+          "laps": 4,
+          "status": "racing"
+        },
+        {
+          "id": "STR",
+          "laps": 4,
+          "status": "racing"
+        }
+      ],
+      "resourcesValid": true
+    }
+  ]
+}

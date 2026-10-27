@@ -1,0 +1,65 @@
+{
+  "presentationVersion": "four-wheel-contact-1",
+  "date": "2026-10-23",
+  "engineVersion": "surface-dynamics-1",
+  "modelVersion": "monza-3d-4",
+  "changes": [
+    "Road slope/banking orientation",
+    "Four independent unsprung wheel road constraints",
+    "Shared asphalt/pit/kerb layer heights",
+    "Damped sprung-body pitch/roll/heave with corrected braking sign",
+    "Ackermann steering with separate spinning children",
+    "Rounded wheel spin-plane envelopes, 0.3525/0.355 m radii",
+    "Differential inner/outer wheel travel",
+    "Body-mounted cockpit and T-cam"
+  ],
+  "validation": {
+    "consistencyTests": 102,
+    "passed": 102,
+    "roadContactResidualToleranceMetres": 0.0001,
+    "pitContactResidualToleranceMetres": 0.001,
+    "actualRotatedWheelMeshClearanceToleranceMetres": 0.0025,
+    "teams": 5,
+    "lodsPerTeam": 3,
+    "wheelAnglesRadians": [
+      0,
+      0.83,
+      2.1
+    ],
+    "browser": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "quality": "Medium",
+      "observedFPS": 60,
+      "consoleErrors": 0,
+      "scope": "Observed representative test views; not a whole-circuit performance guarantee"
+    }
+  },
+  "simulationChange": false,
+  "saveFormatChange": false,
+  "limits": [
+    "Presentation road constraint, not a vertical rigid-body solver",
+    "No calibrated suspension or tire normal-load model",
+    "Embedded wishbones remain rigid",
+    "Authored elevations, banking and kerbs are approximations"
+  ],
+  "suppliedTrack": {
+    "source": "https://sketchfab.com/3d-models/autodromo-nazionale-monza-circuit-2020-layout-25ed955115094de382935aa6d1a1e9c6",
+    "uploader": "Dave Love SketchFab (Tyler_Dave)",
+    "displayedLicense": "CC BY 4.0",
+    "provenance": "Description credits mucdinhh; tags identify ripped Assetto Corsa content. Original source rights not established. Not included in public build.",
+    "bytes": 92497680,
+    "triangles": 1194460,
+    "nodes": 1,
+    "images": 65,
+    "sha256": "fa95269eca0e526e86840fbabd906bcf93252102573a1f4badf99b247276836a",
+    "integrationNeeded": [
+      "Verified source rights",
+      "Align world origin, scale, timing datum and route",
+      "Extract simplified continuous road/pit collision surface shared with rendering",
+      "Optimize/chunk scenery and create LODs"
+    ]
+  }
+}

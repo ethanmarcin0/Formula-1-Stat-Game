@@ -1,0 +1,223 @@
+{
+  "release": "mclaren-right-pits-1",
+  "date": "2026-10-23",
+  "modelVersion": "monza-3d-5",
+  "trackVersion": "monza-osm-surface-2",
+  "engineVersion": "surface-dynamics-1",
+  "teams": 6,
+  "grid": [
+    "NOR",
+    "LEC",
+    "VER",
+    "RUS",
+    "PIA",
+    "HAM",
+    "ANT",
+    "HAD",
+    "HUL",
+    "PER",
+    "BOR",
+    "BOT"
+  ],
+  "mclaren": {
+    "source": "https://sketchfab.com/3d-models/2026-mclaren-mcl40-96214ad5624f42a0861f77008f8d29e7",
+    "author": "Dave Love SketchFab",
+    "license": "CC BY 4.0",
+    "sourceSHA256": "f11dbe2b17373763b21a34f5ff58f58f5f4a091bb7af23500d5ff2286b00c3c5",
+    "lods": {
+      "high": {
+        "triangles": 239286,
+        "bytes": 6556600,
+        "sha256": "f9f3da8d462460876e7f9c6758d54375614d8f4e67b91f494fa76425c47d78da"
+      },
+      "medium": {
+        "triangles": 198260,
+        "bytes": 5335068,
+        "sha256": "2fb2b417c28a298bdce1cb889551cb4d78336305f1abfacf0c8bede37a2993fc"
+      },
+      "far": {
+        "triangles": 61167,
+        "bytes": 1482552,
+        "sha256": "607aa3ac782aee2c3372b478ea1340ba929ce2e9ec47ba26c20941de3150bc42"
+      }
+    },
+    "adaptation": "Sponsor-free papaya/carbon; common documented metre envelope; four-wheel contact and isolated active flaps",
+    "colorSpace": "sRGB papaya/carbon swatches converted to linear glTF factors"
+  },
+  "pit": {
+    "side": 1,
+    "lateralSign": 1,
+    "entry": 5490,
+    "exit": 340,
+    "length": 646.1165519935889,
+    "box": 361.82526911640986,
+    "approximation": "Authored route, garages, wall and opposite grandstands; not a survey"
+  },
+  "checks": {
+    "tests": 108,
+    "passed": 108,
+    "assets": 18,
+    "legacyFixtureSHA256": "d28146578f7dabb5ad5e6c647ba365d1df30d9b9d11955d270c786f462668c85",
+    "coverage": [
+      "Right-side road/pit geometry and metre arc",
+      "Entry/exit connectivity",
+      "Exit yields to the correct traffic lane",
+      "Model-4 original pit merge exact continuation",
+      "McLaren ownership, equal mode and save/resume",
+      "Actual tyre mesh clearance and active-flap rigidity for all 18 assets"
+    ]
+  },
+  "fullRace": {
+    "model": "monza-3d-5",
+    "track": "monza-osm-surface-2",
+    "pit": {
+      "entry": 5490,
+      "exit": 340,
+      "length": 646.1165519935889,
+      "box": 361.82526911640986,
+      "side": 1
+    },
+    "grid": [
+      "NOR",
+      "LEC",
+      "VER",
+      "RUS",
+      "PIA",
+      "HAM",
+      "ANT",
+      "HAD",
+      "HUL",
+      "PER",
+      "BOR",
+      "BOT"
+    ],
+    "seed": 2026,
+    "complete": true,
+    "simSeconds": 5160.400000000001,
+    "wallSeconds": 35.852449041,
+    "engineOnlySpeedup": 143.93437932506902,
+    "contacts": 3,
+    "passes": 11,
+    "cars": [
+      {
+        "driver": "NOR",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 6.031184132264377,
+        "tire": 0.6072413425968333,
+        "battery": 0.8996501486365938
+      },
+      {
+        "driver": "LEC",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 5.689622407542841,
+        "tire": 0.5346890656872803,
+        "battery": 0.8986266988458093
+      },
+      {
+        "driver": "VER",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 5.858997136247669,
+        "tire": 0.5971563138026358,
+        "battery": 0.8989288165384667
+      },
+      {
+        "driver": "RUS",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 5.98242524795109,
+        "tire": 0.5723695441652643,
+        "battery": 0.8999571223673237
+      },
+      {
+        "driver": "PIA",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 6.017394919006456,
+        "tire": 0.61754669519857,
+        "battery": 0.8992125902349708
+      },
+      {
+        "driver": "HAM",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 5.9726835303578545,
+        "tire": 0.5886801944368635,
+        "battery": 0.8987662445648451
+      },
+      {
+        "driver": "ANT",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 5.918565889353519,
+        "tire": 0.5802522184552085,
+        "battery": 0.899802181530297
+      },
+      {
+        "driver": "HAD",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 5.918635808522251,
+        "tire": 0.6058928313339634,
+        "battery": 0.8992238770865839
+      },
+      {
+        "driver": "HUL",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 5.873272434922305,
+        "tire": 0.5653437236725775,
+        "battery": 0.8988863428362676
+      },
+      {
+        "driver": "PER",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 5.9041837995186865,
+        "tire": 0.6046996536974985,
+        "battery": 0.8994858274048474
+      },
+      {
+        "driver": "BOR",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 5.823464132631076,
+        "tire": 0.5807171047624335,
+        "battery": 0.8997084163433879
+      },
+      {
+        "driver": "BOT",
+        "status": "finished",
+        "laps": 53,
+        "stops": 1,
+        "fuel": 5.929865481866301,
+        "tire": 0.6136850257477953,
+        "battery": 0.8999435082329759
+      }
+    ]
+  },
+  "performanceLimit": "Engine-only speed excludes graphics. Browser FPS depends on view/device.",
+  "suppliedMonza": {
+    "source": "https://sketchfab.com/3d-models/autodromo-nazionale-monza-circuit-2020-layout-25ed955115094de382935aa6d1a1e9c6",
+    "included": false,
+    "technicalWork": [
+      "Align metre scale, timing datum, route and pit lane",
+      "Build simplified collision road shared with renderer",
+      "Chunk/optimize scenery and textures"
+    ],
+    "provenance": "Listing states CC BY but tags itself as ripped Assetto Corsa content. Original asset rights are not established."
+  }
+}

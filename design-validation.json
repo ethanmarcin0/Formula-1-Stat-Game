@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-22",
+  "modelVersion": "monza-3d-3",
+  "visualAssets": "original-world-2-original-car-2",
+  "testsPassed": 93,
+  "trackGateTests": 91,
+  "nominalTrackLengthM": 5793,
+  "forestTrees": 1800,
+  "clearance": "Full tree crown plus 5 m against all road, pit and authored runoff segments",
+  "carEnvelope": {
+    "wheelbaseM": 3.4,
+    "widthM": 1.9,
+    "approximateLengthM": 5.05,
+    "surfaces": "Original approximations, not team CAD"
+  },
+  "browserObservation": "About 60 FPS on High at 1920\u00d71080 while moving through the park section at 287 km/h; scene/device dependent",
+  "fullRace": {
+    "modelVersion": "monza-3d-3",
+    "trackVersion": "monza-osm-surface-1",
+    "wallSeconds": 35.967699333000006,
+    "simulatedSeconds": 5163.950000000001,
+    "speedup": 143.57187409154434,
+    "complete": true,
+    "contacts": 0,
+    "passes": 12,
+    "results": [
+      {
+        "driver": "NOR",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 95.15,
+        "fuel": 6.030982134917111,
+        "stops": 1
+      },
+      {
+        "driver": "LEC",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.5,
+        "fuel": 6.028434165863376,
+        "stops": 1
+      },
+      {
+        "driver": "VER",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94,
+        "fuel": 5.692081843765721,
+        "stops": 1
+      },
+      {
+        "driver": "RUS",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.40000000000009,
+        "fuel": 5.950619454214196,
+        "stops": 1
+      },
+      {
+        "driver": "PIA",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.55000000000018,
+        "fuel": 5.972629836317057,
+        "stops": 1
+      },
+      {
+        "driver": "HAM",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.65000000000009,
+        "fuel": 6.020613481234127,
+        "stops": 1
+      },
+      {
+        "driver": "ANT",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.34999999999991,
+        "fuel": 5.946021644912662,
+        "stops": 1
+      },
+      {
+        "driver": "HAD",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.69999999999982,
+        "fuel": 5.8977885811894035,
+        "stops": 1
+      },
+      {
+        "driver": "ALB",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 95.34999999999991,
+        "fuel": 5.955714420089623,
+        "stops": 1
+      },
+      {
+        "driver": "SAI",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 93.85000000000036,
+        "fuel": 5.854656999453196,
+        "stops": 1
+      },
+      {
+        "driver": "ALO",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 94.5,
+        "fuel": 5.850796309219433,
+        "stops": 1
+      },
+      {
+        "driver": "STR",
+        "status": "finished",
+        "laps": 53,
+        "bestLap": 95.65000000000055,
+        "fuel": 5.836292442181965,
+        "stops": 1
+      }
+    ]
+  },
+  "limits": [
+    "OSM geographic alignment, not laser-scanned or surveyed Monza",
+    "Widths/elevation/banking/runoff/kerbs/architecture are authored approximations",
+    "Team-specific surfaces and tire profiles are not dimensioned replicas",
+    "No game mesh or texture extraction; video references guide presentation only"
+  ],
+  "references": [
+    "https://www.youtube.com/watch?v=jrraFpiWgkw",
+    "https://www.youtube.com/watch?v=XSvTvioWoFA",
+    "https://www.fia.com/news/new-era-competition-fia-showcases-future-focused-formula-1-regulations-2026-and-beyond",
+    "https://www.mclaren.com/racing/formula-1/2026/what-is-the-technical-specification-of-our-2026-formula-1/"
+  ]
+}

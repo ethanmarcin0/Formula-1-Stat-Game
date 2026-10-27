@@ -1,0 +1,79 @@
+{
+  "schema": "pitwall-authored-track-features-1",
+  "boundaryVersion": "monza-runoff-boundaries-1",
+  "coordinateSystem": "Metre stations on the downloadable monza-geometry.json derived centreline; lateral metres positive left",
+  "license": "ODbL-1.0",
+  "attribution": "Geometry \u00a9 OpenStreetMap contributors; authored runoff and scenery approximations by Pitwall",
+  "source": "./monza-geometry.json",
+  "notice": "Not surveyed geometry or FIA event drawings",
+  "runoffs": [
+    {
+      "start": 765,
+      "end": 850,
+      "side": -1,
+      "width": 26
+    },
+    {
+      "start": 838,
+      "end": 930,
+      "side": 1,
+      "width": 22
+    },
+    {
+      "start": 1955,
+      "end": 2115,
+      "side": 1,
+      "width": 27
+    },
+    {
+      "start": 2325,
+      "end": 2560,
+      "side": -1,
+      "width": 22
+    },
+    {
+      "start": 2650,
+      "end": 2800,
+      "side": -1,
+      "width": 18
+    },
+    {
+      "start": 3750,
+      "end": 4080,
+      "side": -1,
+      "width": 25
+    },
+    {
+      "start": 5000,
+      "end": 5420,
+      "side": -1,
+      "width": 27
+    }
+  ],
+  "kerbRegions": [
+    [
+      805,
+      890
+    ],
+    [
+      1950,
+      2120
+    ],
+    [
+      2350,
+      2550
+    ],
+    [
+      2690,
+      2800
+    ],
+    [
+      3790,
+      4070
+    ],
+    [
+      5030,
+      5420
+    ]
+  ]
+}
