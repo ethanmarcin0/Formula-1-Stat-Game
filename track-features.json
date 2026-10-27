@@ -3,7 +3,7 @@
   "boundaryVersion": "monza-runoff-boundaries-1",
   "coordinateSystem": "Metre stations on the downloadable monza-geometry.json derived centreline; lateral metres positive left",
   "license": "ODbL-1.0",
-  "attribution": "Geometry \u00a9 OpenStreetMap contributors; authored runoff and scenery approximations by Pitwall",
+  "attribution": "Geometry © OpenStreetMap contributors; authored runoff and scenery approximations by Pitwall",
   "source": "./monza-geometry.json",
   "notice": "Not surveyed geometry or FIA event drawings",
   "runoffs": [

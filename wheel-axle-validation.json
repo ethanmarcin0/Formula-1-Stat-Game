@@ -1,0 +1,242 @@
+{
+  "version": "wheel-axle-2",
+  "date": "2026-10-27",
+  "engineVersion": "surface-dynamics-1",
+  "modelVersion": "monza-3d-6",
+  "sourceGLBsChanged": false,
+  "testsPassed": 116,
+  "wheelDetailCombinations": 72,
+  "wheelRevolutionSamples": 12,
+  "maximumSilhouetteRunoutAndContactGapMetres": 0.001,
+  "steeringPreviewSeconds": [
+    0.2,
+    0.36
+  ],
+  "closeControllerRetainedIn": [
+    "bends",
+    "wheel-to-wheel overlaps"
+  ],
+  "savedModel5Continuation": "exact original fixture",
+  "fullRaceComparison": [
+    {
+      "version": "monza-3d-5",
+      "seed": 2026,
+      "complete": true,
+      "seconds": 5160.400000000001,
+      "wallSeconds": 34.499214916,
+      "contacts": 3,
+      "passes": 11,
+      "cars": [
+        {
+          "id": "NOR",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 6.031184132264377,
+          "tire": 0.6072413425968333,
+          "battery": 0.8996501486365938
+        },
+        {
+          "id": "LEC",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.689622407542841,
+          "tire": 0.5346890656872803,
+          "battery": 0.8986266988458093
+        },
+        {
+          "id": "VER",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.858997136247669,
+          "tire": 0.5971563138026358,
+          "battery": 0.8989288165384667
+        },
+        {
+          "id": "RUS",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.98242524795109,
+          "tire": 0.5723695441652643,
+          "battery": 0.8999571223673237
+        },
+        {
+          "id": "PIA",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 6.017394919006456,
+          "tire": 0.61754669519857,
+          "battery": 0.8992125902349708
+        },
+        {
+          "id": "HAM",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.9726835303578545,
+          "tire": 0.5886801944368635,
+          "battery": 0.8987662445648451
+        },
+        {
+          "id": "ANT",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.918565889353519,
+          "tire": 0.5802522184552085,
+          "battery": 0.899802181530297
+        },
+        {
+          "id": "HAD",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.918635808522251,
+          "tire": 0.6058928313339634,
+          "battery": 0.8992238770865839
+        },
+        {
+          "id": "HUL",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.873272434922305,
+          "tire": 0.5653437236725775,
+          "battery": 0.8988863428362676
+        },
+        {
+          "id": "PER",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.9041837995186865,
+          "tire": 0.6046996536974985,
+          "battery": 0.8994858274048474
+        },
+        {
+          "id": "BOR",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.823464132631076,
+          "tire": 0.5807171047624335,
+          "battery": 0.8997084163433879
+        },
+        {
+          "id": "BOT",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.929865481866301,
+          "tire": 0.6136850257477953,
+          "battery": 0.8999435082329759
+        }
+      ]
+    },
+    {
+      "version": "monza-3d-6",
+      "seed": 2026,
+      "complete": true,
+      "seconds": 5147.650000000001,
+      "wallSeconds": 34.661606916000004,
+      "contacts": 1,
+      "passes": 4,
+      "cars": [
+        {
+          "id": "NOR",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 6.030738888990144,
+          "tire": 0.6072356506351723,
+          "battery": 0.8987379926474125
+        },
+        {
+          "id": "LEC",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.888712646577651,
+          "tire": 0.5507311033757541,
+          "battery": 0.898637918428309
+        },
+        {
+          "id": "VER",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.893350035321001,
+          "tire": 0.5910903900481261,
+          "battery": 0.8989128247725114
+        },
+        {
+          "id": "RUS",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.860603920701968,
+          "tire": 0.5683171443684535,
+          "battery": 0.8986439504890004
+        },
+        {
+          "id": "PIA",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 6.024466248886129,
+          "tire": 0.6175472836797623,
+          "battery": 0.8990638875382923
+        },
+        {
+          "id": "HAM",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.944722789466998,
+          "tire": 0.5888354080343488,
+          "battery": 0.8999254304839757
+        },
+        {
+          "id": "ANT",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.887154988006546,
+          "tire": 0.5804632621014467,
+          "battery": 0.8992827656404727
+        },
+        {
+          "id": "HAD",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.9710794171217625,
+          "tire": 0.6058980073828434,
+          "battery": 0.8992294236568505
+        },
+        {
+          "id": "HUL",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.933941614110951,
+          "tire": 0.5706660282477054,
+          "battery": 0.8994694189641759
+        },
+        {
+          "id": "PER",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.906273804005823,
+          "tire": 0.6052012410313903,
+          "battery": 0.8991478274454942
+        },
+        {
+          "id": "BOR",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.905617528010674,
+          "tire": 0.580848879589676,
+          "battery": 0.8998565707452748
+        },
+        {
+          "id": "BOT",
+          "status": "finished",
+          "laps": 53,
+          "fuel": 5.917461900462855,
+          "tire": 0.6136815081231454,
+          "battery": 0.8996094625081943
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "One paired seed is not a calibrated probability or general racing quality guarantee.",
+    "Position-change events declined from 11 to 4; more overtakes are not claimed.",
+    "Tyre envelopes, axle fits and source dimensions are visual approximations.",
+    "No regulatory/aero/energy-parameter changes or new real-world calibration."
+  ]
+}

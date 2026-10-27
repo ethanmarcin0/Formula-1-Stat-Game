@@ -45,6 +45,10 @@ Dry single races only; no wet weather, full weekends, career or direct driving. 
 
 The game runs locally in browser workers after assets load, with no required live AI calls or API keys. A first load needs hosting/network access; there is no guaranteed offline-install/service-worker feature. Browser saves do not transfer automatically between the development host and GitHub Pages, or between devices/private windows.
 
+## Latest update — October 27, 2026
+
+The wheel-axle update keeps imported wheel camber fixed while the slicks and rims rotate concentrically. New races use model 6 with a longer preview on open straights; existing model 5 saves keep their driving policy. All 116 automated checks passed, including 72 wheel/detail combinations and a controlled contact-free pass. See [release notes](RELEASE_NOTES.md) and [validation report](wheel-axle-validation.json). Both public hosts receive validated updates.
+
 ## Submission status
 
 The static upload package was prepared on October 27, 2026 and added to this repository through Git. GitHub Pages publishes the root of main. The two links above are the repository and Pages addresses. All five assignment tests in TEST_LOG.md, an actual live fix/retest where applicable, and final Canvas submission remain to be completed. Existing local/development-host tests do not substitute for those live GitHub Pages checks.
