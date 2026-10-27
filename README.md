@@ -1,1 +1,1 @@
-# Formula-1-Stat-Game
+# Formula-1-Strat-Game
